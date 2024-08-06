@@ -75,9 +75,18 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; hook org-modern to org
+(setq-default org-startup-indented t
+              org-pretty-entities t
+              org-use-sub-superscripts "{}"
+              org-hide-emphasis-markers t
+              org-startup-with-inline-images t
+              org-image-actual-width '(300))
+
+;; hook org-{modern, fragtog, appear} to org-mode
 (add-hook 'org-mode-hook #'org-modern-mode)
 (add-hook 'org-agenda-finalize-hook #'org-modern-agenda)
+(add-hook 'org-mode-hook 'org-appear-mode)
+(add-hook 'org-mode-hook 'org-fragtog-mode)
 
 ;; hook company-coq to coq-mode
 (add-hook 'coq-mode-hook #'company-coq-mode)
