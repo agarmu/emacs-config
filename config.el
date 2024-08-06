@@ -75,5 +75,12 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; hook org-modern to org
+(add-hook 'org-mode-hook #'org-modern-mode)
+(add-hook 'org-agenda-finalize-hook #'org-modern-agenda)
+
+;; hook company-coq to coq-mode
 (add-hook 'coq-mode-hook #'company-coq-mode)
+
+;; wakatime everywhere!
 (global-wakatime-mode)
