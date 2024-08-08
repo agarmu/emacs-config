@@ -40,7 +40,6 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
 
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -93,3 +92,9 @@
 
 ;; wakatime everywhere!
 (global-wakatime-mode)
+
+
+;; org/gtd setup
+
+
+(setq org-directory "~/notes/")
