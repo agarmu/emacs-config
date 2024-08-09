@@ -1,1 +1,31 @@
-#+title: Mukul's Config
+#+title: Mukul's Doom Emacs Configuration
+#+author: Mukul Agarwal
+
+# This part blatantly stolen from Tecosaur
+
+#+property: header-args:emacs-lisp
+#+property: header-args:elisp :results replace :exports code
+#+property: header-args:shell :tangle "setup.sh"
+#+property: header-args: :tangle no :results silent :eval no-export
+
+* Introduction
+
+Emacs is an extensible *text editor/IDE/productivity tool* which is extremely
+extensible. Even better, it's [[https://en.wikipedia.org/wiki/Emacs_Lisp][emacs-lisp]] configuration can be prepared as a
+[[https://en.wikipedia.org/wiki/Literate_programming][literate program]] in [[https://orgmode.org/][org-mode]] (that's this document).
+
+I use [[https://github.com/doomemacs/doomemacs][Doom Emacs]] for:
+
++ Text Editing
++ Programming/as an IDE
++ [[https://proofgeneral.github.io/][Mathematics/Proof]]
++ Writing documents ([[https://www.latex-project.org/][LaTeX]], [[https://orgmode.org/][org-mode]], etc.)
++ Occasionaly as a [[https://magit.vc/][git porcelain]]
++ [[https://orgmode.org/manual/Agenda-Views.html][Task Manager/Agenda]]
+
+** Inspiration
+My configuration is deeply inspired by:
++ [[https://tecosaur.github.io/emacs-config/config.html][tecosaur's configuration]]
++ [[https://cachestocaches.com/][The Caches to Caches Blog — by Gregory J. Stein]]
++ [[https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/][zzamboni's configuration]]
++ [[https://github.com/dustinlyons/nixos-config/blob/main/modules/shared/config/emacs/init.el][Dustin Lyons' Emacs Configuration]]
