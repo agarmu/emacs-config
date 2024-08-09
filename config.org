@@ -10,7 +10,7 @@
 
 * Introduction
 
-Emacs is an extensible *text editor/IDE/productivity tool* which is extremely
+Emacs is an *text editor/IDE/productivity tool* which is extremely
 extensible. Even better, it's [[https://en.wikipedia.org/wiki/Emacs_Lisp][emacs-lisp]] configuration can be prepared as a
 [[https://en.wikipedia.org/wiki/Literate_programming][literate program]] in [[https://orgmode.org/][org-mode]] (that's this document).
 
